@@ -56,4 +56,4 @@ let message = `<h1>You got ${correct} out of 5 questions correct.</h1>
 
 <h1>Crown earned:  ${playerOneRank}.</h1>`;
 
-document.querySelector('body').innerHTML = message;
+document.querySelector('h2').innerHTML = message;
