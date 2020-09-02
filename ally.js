@@ -41,3 +41,13 @@ if (quiz5.toUpperCase() === "GEORGE FLOYD") {
 } else {
   console.log("That is incorrect.");
 }
+
+if (correct === 5) {
+  playerOneRank = "Gold";
+} else if (correct === 4 || correct === 3) {
+  playerOneRank = "Silver";
+} else if (correct === 2 || correct === 1) {
+  playerOneRank = "Bronze";
+} else {
+  playerOneRank = "No crown";
+}
