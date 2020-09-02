@@ -51,3 +51,9 @@ if (correct === 5) {
 } else {
   playerOneRank = "No crown";
 }
+
+let message = `<h1>You got ${correct} out of 5 questions correct.</h1> 
+
+<h1>Crown earned:  ${playerOneRank}.</h1>`;
+
+document.querySelector('body').innerHTML = message;
