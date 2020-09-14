@@ -18,7 +18,8 @@ let quiz = [
   ["Who was shot and killed by police while playing video games in the house with their nephew?", "ATATIANNA JEFFERSON"],
   ["Who was shot 5 times by police while sleeping in their apartment?", "BREONNA TAYLOR"],
   ["Who was killed by police while walking home?", "ELIJAH MCCLAIN"],
-  ["What child was killed by police for playing with a toy gun in the park?", "TAMIR RICE"]
+  ["What child was killed by police for playing with a toy gun in the park?", "TAMIR RICE"],
+  ["Who was killed while in police custody and abused so badly that their spinal cord was severed?", "Freddie Gray"]
 ];
 
 if (quiz1.toUpperCase() === "ERIC GARNER") {
@@ -71,3 +72,9 @@ let message = `<h1>You got ${correct} out of 5 questions correct.</h1>
 <h1>Crown earned:  ${playerOneRank}.</h1>`;
 
 document.querySelector('h2').innerHTML = message;
+
+
+// Potential features of site may include web articles:
+// https://www.cbsnews.com/news/say-their-names-list-people-injured-killed-police-officer-involved-incidents/
+
+//Utilization of gifs for wrong answers
