@@ -19,7 +19,16 @@ let quiz = [
   ["Who was shot 5 times by police while sleeping in their apartment?", "BREONNA TAYLOR"],
   ["Who was killed by police while walking home?", "ELIJAH MCCLAIN"],
   ["What child was killed by police for playing with a toy gun in the park?", "TAMIR RICE"],
-  ["Who was killed while in police custody and abused so badly that their spinal cord was severed?", "Freddie Gray"]
+  ["Who was killed while in police custody and abused so badly that their spinal cord was severed?", "Freddie Gray"],
+  ["", "STEPHON CLARK"],
+  ["", "BOTHAM JEAN"],
+  ["", "PHILANDO CASTILLE"],
+  ["", "ALTON STERLING"],
+  ["", "LAQUAN MCDONALD"],
+  ["", ""],
+  ["", ""],
+  ["", ""],
+  ["", ""]
 ];
 
 if (quiz1.toUpperCase() === "ERIC GARNER") {
@@ -76,5 +85,9 @@ document.querySelector('h2').innerHTML = message;
 
 // Potential features of site may include web articles:
 // https://www.cbsnews.com/news/say-their-names-list-people-injured-killed-police-officer-involved-incidents/
+
+// https://interactive.aljazeera.com/aje/2020/know-their-names/index.html
+
+// End of Articles...
 
 //Utilization of gifs for wrong answers
