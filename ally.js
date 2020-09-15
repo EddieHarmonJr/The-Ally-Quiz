@@ -19,16 +19,22 @@ let quiz = [
   ["Who was shot 5 times by police while sleeping in their apartment?", "BREONNA TAYLOR"],
   ["Who was killed by police while walking home?", "ELIJAH MCCLAIN"],
   ["What child was killed by police for playing with a toy gun in the park?", "TAMIR RICE"],
-  ["Who was killed while in police custody and abused so badly that their spinal cord was severed?", "Freddie Gray"],
+  ["Who was killed while in police custody and abused so badly that their spinal cord was severed?", "FREDDIE GRAY"],
   ["Who was killed by a police officer in Sacramento, CA when the officer alledged that the victum had a gun, when in fact, it was a cell phone?", "STEPHON CLARK"],
   ["Who was the person who was killed by a police officer while eating ice cream in his own apartment?", "BOTHAM JEAN"],
   ["After informing a police officer in Minnesota that he was carrying a legal firearm, this person was shot and killed while sitting in the car with his girlfriend and child.", "PHILANDO CASTILLE"],
   ["Who was shot six times after being confronted by police officers for selling CD's and DVD's in Baton Rouge, LA? ", "ALTON STERLING"],
   ["Who was shot 16 times in Chicago for alledgedly approaching a police officer with a knife?", "LAQUAN MCDONALD"],
-  ["", ""],
-  ["", ""],
-  ["", ""],
-  ["", ""]
+  ["", "FRED HAMPTON"],
+  ["", "JORDAN EDWARDS"],
+  ["", "TERRANCE CRUTCHER"],
+  ["", "SEAN BELL"],
+  ["", "AMADOU DIALLO"],
+  ["", "RAYSHARD BROOKS"],
+  ["", "DANIEL PRUDE"],
+  ["", "KORRYN GAINES"],
+  ["", "JOHN CRAWFORD"],
+  ["", "REKIA BOYD"],
 ];
 
 if (quiz1.toUpperCase() === "ERIC GARNER") {
@@ -87,6 +93,8 @@ document.querySelector('h2').innerHTML = message;
 // https://www.cbsnews.com/news/say-their-names-list-people-injured-killed-police-officer-involved-incidents/
 
 // https://interactive.aljazeera.com/aje/2020/know-their-names/index.html
+
+//https://www.reneeater.com/on-monuments-blog/tag/list+of+unarmed+black+people+killed+by+police
 
 // End of Articles...
 
