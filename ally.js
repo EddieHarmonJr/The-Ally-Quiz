@@ -24,7 +24,7 @@ let quiz = [
   ["", "BOTHAM JEAN"],
   ["", "PHILANDO CASTILLE"],
   ["", "ALTON STERLING"],
-  ["", "LAQUAN MCDONALD"],
+  ["Who was shot 16 times in Chicago for alledgedly approaching a police officer with a knife?", "LAQUAN MCDONALD"],
   ["", ""],
   ["", ""],
   ["", ""],
