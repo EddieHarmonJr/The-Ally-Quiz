@@ -25,7 +25,7 @@ let quiz = [
   ["After informing a police officer in Minnesota that he was carrying a legal firearm, this person was shot and killed while sitting in the car with his girlfriend and child.", "PHILANDO CASTILLE"],
   ["Who was shot six times after being confronted by police officers for selling CD's and DVD's in Baton Rouge, LA? ", "ALTON STERLING"],
   ["Who was shot 16 times in Chicago for alledgedly approaching a police officer with a knife?", "LAQUAN MCDONALD"],
-  ["", "FRED HAMPTON"],
+  ["Who was killed by police while in bed next to his 9 month pregnant fiancé after 4am?", "FRED HAMPTON"],
   ["", "JORDAN EDWARDS"],
   ["", "TERRANCE CRUTCHER"],
   ["", "SEAN BELL"],
