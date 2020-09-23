@@ -16,7 +16,7 @@ let quiz = [
   ["Who was murdered by an officer after having his neck kneeled upon for 8:46?", "GEORGE FLOYD"],
   ["Who died in police custody after being pulled over for an alleged failure to signal?", "SANDRA BLAND"],
   ["Who was shot and killed by police while playing video games in the house with their nephew?", "ATATIANNA JEFFERSON"],
-  ["Who was shot 5 times by police while sleeping in their apartment?", "BREONNA TAYLOR"],
+  ["Who was shot 6 times by police while sleeping in their apartment?", "BREONNA TAYLOR"],
   ["Who was killed by police while walking home?", "ELIJAH MCCLAIN"],
   ["What child was killed by police for playing with a toy gun in the park?", "TAMIR RICE"],
   ["Who was killed while in police custody and abused so badly that their spinal cord was severed?", "FREDDIE GRAY"],
