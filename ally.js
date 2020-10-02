@@ -31,7 +31,7 @@ let quiz = [
   ["Who was shot and killed by police on the morning before his wedding in NYC?", "SEAN BELL"],
   ["Who was killed by New York City police officers when they fired 41 shots, (he was struck 19 times) at the age of 23?", "AMADOU DIALLO"],
   ["What individual was shot and killed by police because they fell asleep in a Wendy's drive-thru?", "RAYSHARD BROOKS"],
-  ["", "DANIEL PRUDE"],
+  ["Who was killed when his brother called for help, because his brother was having a mental health episode?", "DANIEL PRUDE"],
   ["", "KORRYN GAINES"],
   ["What 22 year old was shot and killed by a police officer while inside a Walmart, after a false report that the victim waved a gun at patrons in the store?", "JOHN CRAWFORD"],
   ["", "REKIA BOYD"],
