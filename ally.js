@@ -34,7 +34,7 @@ let quiz = [
   ["Who was killed when his brother called for help, because his brother was having a mental health episode?", "DANIEL PRUDE"],
   ["Who was killed by Baltimore County police in 2016 after a 6-hour standoff, where she was shot 5 times?", "KORRYN GAINES"],
   ["What 22 year old was shot and killed by a police officer while inside a Walmart, after a false report that the victim waved a gun at patrons in the store?", "JOHN CRAWFORD"],
-  ["", "REKIA BOYD"],
+  ["What 22-year-old Black American was fatally shot as a bystander in Chicago, Illinois by an off-duty Chicago police detective, on March 21, 2012?", "REKIA BOYD"],
 ];
 
 if (quiz1.toUpperCase() === "ERIC GARNER") {
