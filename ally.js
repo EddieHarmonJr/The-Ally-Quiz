@@ -27,7 +27,7 @@ let quiz = [
   ["Who was shot 16 times in Chicago for alledgedly approaching a police officer with a knife?", "LAQUAN MCDONALD"],
   ["Who was killed by police while in bed next to his 9 month pregnant fiancé after 4am?", "FRED HAMPTON"],
   ["Who was shot in the back of the head by a police officer while riding unarmed in the front passenger's seat of a friend's car at 15 years old?", "JORDAN EDWARDS"],
-  ["", "TERENCE CRUTCHER"],
+  ["What unarmed person was shot and killed in September 2016 in Tulsa, Oklahoma while standing next to his vehicle in the middle of the road?", "TERENCE CRUTCHER"],
   ["Who was shot and killed by police on the morning before his wedding in NYC?", "SEAN BELL"],
   ["Who was killed by New York City police officers when they fired 41 shots, (he was struck 19 times) at the age of 23?", "AMADOU DIALLO"],
   ["What individual was shot and killed by police because they fell asleep in a Wendy's drive-thru?", "RAYSHARD BROOKS"],
