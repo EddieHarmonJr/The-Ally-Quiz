@@ -37,6 +37,30 @@ let quiz = [
   ["What 22-year-old Black American was fatally shot as a bystander in Chicago, Illinois by an off-duty Chicago police detective, on March 21, 2012?", "REKIA BOYD"],
 ];
 
+let quiz = [
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+  {question: ""},
+]
+
 if (quiz1.toUpperCase() === "ERIC GARNER") {
   // console.log("That's right!");
   correct += 1;
