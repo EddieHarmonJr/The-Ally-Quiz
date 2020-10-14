@@ -1,4 +1,5 @@
 let correct = 0;
+let wrong = 0;
 let playerOneRank = "";
 
 
@@ -31,6 +32,9 @@ let quiz = [
   {question: "What 22-year-old Black American was fatally shot as a bystander in Chicago, Illinois by an off-duty Chicago police detective, on March 21, 2012?", answer: "REKIA BOYD"}
 ];
 
+let numOfQuestions = quiz.length;
+
+
 //create logic to iterate through questions in the keys.
 
 
@@ -42,7 +46,6 @@ for (let i = 0; i < quiz.length; i++) {
   }else {
     console.log("That is incorrect");
   }
-  // let answer = quiz[i].answer;
   // console.log(i + `: ${question}: The answer is ${answer}`);
 }
 
