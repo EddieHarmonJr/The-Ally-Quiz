@@ -1,14 +1,6 @@
 let correct = 0;
 let playerOneRank = "";
 
-//create logic to iterate through questions in the keys.
-
-let quiz1 = prompt("Whose last words were 'I can\'t breathe'?");
-let quiz2 = prompt("Whose murder in Sanford, FL sparked a national protest?");
-let quiz3 = prompt("Whose death was the catalyst for the BLM movement?");
-let quiz4 = prompt("Who was murdered by a police officer on the BART train station?");
-let quiz5 = prompt("Who was murdered by an officer after having his neck kneeled upon for 8:46?");
-
 
 let quiz = [
   {question: "Whose last words were 'I can\'t breathe'?", answer: "ERIC GARNER"},
@@ -37,42 +29,63 @@ let quiz = [
   {question: "Who was killed by Baltimore County police in 2016 after a 6-hour standoff, where she was shot 5 times?", answer: "KORRYN GAINES"},
   {question: "What 22 year old was shot and killed by a police officer while inside a Walmart, after a false report that the victim waved a gun at patrons in the store?", answer: "JOHN CRAWFORD"},
   {question: "What 22-year-old Black American was fatally shot as a bystander in Chicago, Illinois by an off-duty Chicago police detective, on March 21, 2012?", answer: "REKIA BOYD"}
-]
+];
 
-if (quiz1.toUpperCase() === "ERIC GARNER") {
-  // console.log("That's right!");
-  correct += 1;
-} else {
-  console.log("That is incorrect.");
+//create logic to iterate through questions in the keys.
+
+
+for (let i = 0; i < quiz.length; i++) {
+  const responses = [];
+  let response = prompt(quiz[i].question);
+  if (response.toUpperCase() === quiz[i].answer) {
+    correct += 1;
+  }else {
+    console.log("That is incorrect");
+  }
+  // let answer = quiz[i].answer;
+  // console.log(i + `: ${question}: The answer is ${answer}`);
 }
 
-if (quiz2.toUpperCase() === "TRAYVON MARTIN") {
-  // console.log("That's right!");
-  correct += 1;
-} else {
-  console.log("That is incorrect.");
-}
+// for (let question in quiz) {
+  //   console.log(`The question is: ${question} and the answer is: ${quiz.question}`);
+  // }
 
-if (quiz3.toUpperCase() === "MICHAEL BROWN") {
-  // console.log("That's right!");
-  correct += 1;
-} else {
-  console.log("That is incorrect.");
-}
+// if (quiz1.toUpperCase() === "ERIC GARNER") {
+//   // console.log("That's right!");
+//   correct += 1;
+// } else {
+//   console.log("That is incorrect.");
+// }
 
-if (quiz4.toUpperCase() === "OSCAR GRANT") {
-  // console.log("That's right!");
-  correct += 1;
-} else {
-  console.log("That is incorrect.");
-}
+// if (quiz2.toUpperCase() === "TRAYVON MARTIN") {
+//   // console.log("That's right!");
+//   correct += 1;
+// } else {
+//   console.log("That is incorrect.");
+// }
 
-if (quiz5.toUpperCase() === "GEORGE FLOYD") {
-  // console.log("That's right!");
-  correct += 1;
-} else {
-  console.log("That is incorrect.");
-}
+// if (quiz3.toUpperCase() === "MICHAEL BROWN") {
+//   // console.log("That's right!");
+//   correct += 1;
+// } else {
+//   console.log("That is incorrect.");
+// }
+
+// if (quiz4.toUpperCase() === "OSCAR GRANT") {
+//   // console.log("That's right!");
+//   correct += 1;
+// } else {
+//   console.log("That is incorrect.");
+// }
+
+// if (quiz5.toUpperCase() === "GEORGE FLOYD") {
+//   // console.log("That's right!");
+//   correct += 1;
+// } else {
+//   console.log("That is incorrect.");
+// }
+
+
 
 if (correct === 5) {
   playerOneRank = "Gold";
@@ -121,6 +134,11 @@ document.querySelector('h2').innerHTML = message;
 
 //Old quiz format:
 
+// let quiz1 = prompt("Whose last words were 'I can\'t breathe'?");
+// let quiz2 = prompt("Whose murder in Sanford, FL sparked a national protest?");
+// let quiz3 = prompt("Whose death was the catalyst for the BLM movement?");
+// let quiz4 = prompt("Who was murdered by a police officer on the BART train station?");
+// let quiz5 = prompt("Who was murdered by an officer after having his neck kneeled upon for 8:46?");
 
 
 // let quiz = [
