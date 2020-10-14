@@ -34,6 +34,11 @@ let quiz = [
 
 let numOfQuestions = quiz.length;
 
+const calculateScore = (totalCorrect, totalQuestions) => {
+  return totalCorrect / totalQuestions;
+};
+
+// calculateScore(correct, numOfQuestions);
 
 //create logic to iterate through questions in the keys.
 
@@ -89,18 +94,19 @@ for (let i = 0; i < quiz.length; i++) {
 // }
 
 
-
-if (correct === 5) {
+if (calculateScore === 100) {
+  playerOneRank = "Platinum";
+}else if (calculateScore >= 90) {
   playerOneRank = "Gold";
-} else if (correct === 4 || correct === 3) {
+}else if (calculateScore >= 80) {
   playerOneRank = "Silver";
-} else if (correct === 2 || correct === 1) {
+} else if (calculateScore >= 70) {
   playerOneRank = "Bronze";
 } else {
   playerOneRank = "No crown";
 }
 
-let message = `<h1>You got ${correct} out of 5 questions correct.</h1> 
+let message = `<h1>You got ${correct} out of ${numOfQuestions} questions correct.</h1> 
 
 <h1>Crown earned:  ${playerOneRank}.</h1>`;
 
