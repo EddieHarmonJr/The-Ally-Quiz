@@ -34,79 +34,44 @@ let quiz = [
 
 let numOfQuestions = quiz.length;
 
+//THE CALCULATESCORE FUNCTION DETERMINES THE PERCENTAGE OF QUESTIONS THE PLAYER GOT CORRECT:
+
 const calculateScore = (totalCorrect, totalQuestions) => {
   return totalCorrect / totalQuestions;
 };
 
-// calculateScore(correct, numOfQuestions);
 
 //create logic to iterate through questions in the keys.
 
-
 for (let i = 0; i < quiz.length; i++) {
-  const responses = [];
   let response = prompt(quiz[i].question);
   if (response.toUpperCase() === quiz[i].answer) {
     correct += 1;
   }else {
-    console.log("That is incorrect");
+    wrong += 1;
+    //console log for checking accuracy of answerd questions:
+    console.log(`Sorry. The correct answer to the question "${quiz[i].question}" is: ${quiz[i].answer}. You submitted: ${response}`);
   }
-  // console.log(i + `: ${question}: The answer is ${answer}`);
 }
 
-// for (let question in quiz) {
-  //   console.log(`The question is: ${question} and the answer is: ${quiz.question}`);
-  // }
 
-// if (quiz1.toUpperCase() === "ERIC GARNER") {
-//   // console.log("That's right!");
-//   correct += 1;
-// } else {
-//   console.log("That is incorrect.");
-// }
-
-// if (quiz2.toUpperCase() === "TRAYVON MARTIN") {
-//   // console.log("That's right!");
-//   correct += 1;
-// } else {
-//   console.log("That is incorrect.");
-// }
-
-// if (quiz3.toUpperCase() === "MICHAEL BROWN") {
-//   // console.log("That's right!");
-//   correct += 1;
-// } else {
-//   console.log("That is incorrect.");
-// }
-
-// if (quiz4.toUpperCase() === "OSCAR GRANT") {
-//   // console.log("That's right!");
-//   correct += 1;
-// } else {
-//   console.log("That is incorrect.");
-// }
-
-// if (quiz5.toUpperCase() === "GEORGE FLOYD") {
-//   // console.log("That's right!");
-//   correct += 1;
-// } else {
-//   console.log("That is incorrect.");
-// }
-
+//THIS LOGIC DETERMINES THE RANKING SYSTEM OF EACH PLAYER:
 
 if (calculateScore === 100) {
-  playerOneRank = "Platinum";
+  playerOneRank = "Platinum 💍";
 }else if (calculateScore >= 90) {
-  playerOneRank = "Gold";
+  playerOneRank = "Gold 🥇";
 }else if (calculateScore >= 80) {
-  playerOneRank = "Silver";
+  playerOneRank = "Silver 🥈";
 } else if (calculateScore >= 70) {
-  playerOneRank = "Bronze";
+  playerOneRank = "Bronze 🥉";
 } else {
-  playerOneRank = "No crown";
+  playerOneRank = "No crown 😔";
 }
 
-let message = `<h1>You got ${correct} out of ${numOfQuestions} questions correct.</h1> 
+//THIS TEMPORARILY WRITES THE QUIZ OUTCOME TO THE DOM
+
+let message = `<h1>You got ${correct} out of ${numOfQuestions} questions correct. You got ${wrong} questions incorrect.</h1> 
 
 <h1>Crown earned:  ${playerOneRank}.</h1>`;
 
@@ -178,3 +143,38 @@ document.querySelector('h2').innerHTML = message;
 //   ["What 22 year old was shot and killed by a police officer while inside a Walmart, after a false report that the victim waved a gun at patrons in the store?", "JOHN CRAWFORD"],
 //   ["What 22-year-old Black American was fatally shot as a bystander in Chicago, Illinois by an off-duty Chicago police detective, on March 21, 2012?", "REKIA BOYD"],
 // ];
+
+// if (quiz1.toUpperCase() === "ERIC GARNER") {
+//   // console.log("That's right!");
+//   correct += 1;
+// } else {
+//   console.log("That is incorrect.");
+// }
+
+// if (quiz2.toUpperCase() === "TRAYVON MARTIN") {
+//   // console.log("That's right!");
+//   correct += 1;
+// } else {
+//   console.log("That is incorrect.");
+// }
+
+// if (quiz3.toUpperCase() === "MICHAEL BROWN") {
+//   // console.log("That's right!");
+//   correct += 1;
+// } else {
+//   console.log("That is incorrect.");
+// }
+
+// if (quiz4.toUpperCase() === "OSCAR GRANT") {
+//   // console.log("That's right!");
+//   correct += 1;
+// } else {
+//   console.log("That is incorrect.");
+// }
+
+// if (quiz5.toUpperCase() === "GEORGE FLOYD") {
+//   // console.log("That's right!");
+//   correct += 1;
+// } else {
+//   console.log("That is incorrect.");
+// }
