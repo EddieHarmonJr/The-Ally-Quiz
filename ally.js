@@ -54,6 +54,13 @@ for (let i = 0; i < quiz.length; i++) {
   }
 }
 
+//Add logic to ask the questions randomly without repeating the questions:
+
+// const askQuestions = () => {
+
+// };
+
+// askQuestions();
 
 //THIS LOGIC DETERMINES THE RANKING SYSTEM OF EACH PLAYER:
 
