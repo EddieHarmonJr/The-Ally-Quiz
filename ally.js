@@ -37,10 +37,12 @@ let numOfQuestions = quiz.length;
 //THE CALCULATESCORE FUNCTION DETERMINES THE PERCENTAGE OF QUESTIONS THE PLAYER GOT CORRECT:
 
 const calculateScore = (totalCorrect, totalQuestions) => {
-  return totalCorrect / totalQuestions;
+  let finalScore = totalCorrect / totalQuestions;
+  return finalScore;
 };
 
-
+// calculateScore(correct, numOfQuestions);
+// Your score was: ${Math.round(calculateScore(correct, numOfQuestions))}
 //create logic to iterate through questions in the keys.
 
 for (let i = 0; i < quiz.length; i++) {
